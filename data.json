@@ -1,0 +1,44 @@
+{
+    "turret": {
+        "name": "Turret",
+        "description": "She never hated you. \nThe perfect way to protect your home... even against yourself.",
+        "value": 1000,
+        "picture": "png_files/turretPict.png",
+        "quantity": 19642
+    },
+    "weightedCube": {
+        "name": "Weighted Cube",
+        "description": "Quite useful when you need to press an enormous button at home. \nAlso doubles as a surprisingly stylish coffee table.",
+        "value": 10,
+        "picture": "png_files/Weighted.png",
+        "quantity": 28944
+    },
+    "companionCube": {
+        "name": "Companion Cube",
+        "description": "A loyal partner for all your adventures! Handle with care—many secrets are hidden inside...",
+        "value": 5000,
+        "picture": "png_files/companion.png",
+        "quantity": 9976
+    },
+    "portalGun": {
+        "name": "Portal Gun",
+        "description": "The ultimate tool for fast travel. The primary subject of countless experiments at Aperture Laboratories.",
+        "value": 200000,
+        "picture": "png_files/portal.png",
+        "quantity": 4
+    },
+    "radio": {
+        "name": "Radio",
+        "description": "A charming little radio that plays exactly one song—forever.",
+        "value": 5,
+        "picture": "png_files/radio.png",
+        "quantity": 4479
+    },
+    "boot": {
+        "name": "Long Fall Boot",
+        "description": "A beautiful pair of boots: classy, practical, and scientifically proven! \nGuaranteed to save you from any fall, no matter the height.",
+        "value": 1200,
+        "picture": "png_files/boots.png",
+        "quantity": 4485
+    }
+}

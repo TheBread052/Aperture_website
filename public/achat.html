@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="misc/styleSheet.css"/>
+        <script defer src="misc/achatObject.js"></script>
+
+        <title>Aperture website</title>
+    </head>
+
+    <body>
+        <iframe src="headPage.html" title="headPage" class="iframe1"></iframe>
+
+        <h1 class="title1"><em>market place</em></h1>
+
+        <p> Didn't you always want to buy <em>Aprture laboratories invensions</em>? </br> Now it is possible with our <em>website  </em>! </br> In this page you can buy anything you want (and what your wallet can offer you).</p>
+
+        <!-- div for achatObject.js -->
+        <div id="objectPage"></div>
+
+        <!-- MODAL1 -->
+        <div id="buyModal" class="modal">
+            <div class="modalContent1">
+                <div class="modalText">
+
+                    <h2>confirm your purchase</h2>
+
+                    <p id="modalItemName"></p>
+
+                    <p>Desired quantity:</p>
+                    <input type="number" id="modalQuantity" min="1" value="1">
+
+                    <p id="totalPriceText">final price: 0$</p>
+
+                    <button class="buttonModal" id="confirmBuy" src="png_files/imgPlaceHolder.png">buy</button>
+                </div>
+                
+                <div id="modalPictureDiv">
+                    <img id="modalObjectImage"/>
+                </div>
+
+                <span class="close">&times;</span>
+            </div>
+        </div>
+
+        <!-- MODAL2 -->
+        <div id="confirmModal" class="modal">
+            <div class="modalContent2">
+                <h2>Final confirmation</h2>
+
+                <p id="confirmText"></p>
+
+                <button class="buttonModal" id="finalConfirm">Confirm</button>
+                <button class="buttonModal" id="cancelConfirm">Cancel</button>
+            </div>
+        </div>
+    </body>
+</html> 
