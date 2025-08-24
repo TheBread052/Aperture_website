@@ -31,7 +31,7 @@
         "name": "Radio",
         "description": "A charming little radio that plays exactly one song—forever.",
         "value": 5,
-        "picture": "png_files/radio.png",
+        "picture": "png_files/Radio.png",
         "quantity": 4479
     },
     "boot": {
